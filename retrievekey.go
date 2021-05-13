@@ -5,7 +5,7 @@ type Mykey struct {
 }
 
 func Keyreturn(clientid string, clientsecret string) *Mykey {
-	key := mykey{clientid: clientid}
+	key := Mykey{clientid: clientid}
 	key.clientsecret = clientsecret
 	return &key
 }
