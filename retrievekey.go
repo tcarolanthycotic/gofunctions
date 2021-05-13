@@ -1,10 +1,10 @@
 package gofunctions
 
-type mykey struct {
+type Mykey struct {
 	clientid, clientsecret string
 }
 
-func Keyreturn(clientid string, clientsecret string) *mykey {
+func Keyreturn(clientid string, clientsecret string) *Mykey {
 	key := mykey{clientid: clientid}
 	key.clientsecret = clientsecret
 	return &key
