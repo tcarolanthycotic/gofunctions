@@ -1,4 +1,4 @@
-package retrievekey
+package gofunctions
 
 type mykey struct {
 	clientid, clientsecret string
